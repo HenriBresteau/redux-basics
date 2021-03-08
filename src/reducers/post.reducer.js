@@ -1,5 +1,13 @@
-const initialState={stateDEBase:"Hello"};
+import { GET_POSTS } from "../actions/post.action";
 
-export default function postReducer( state= initialState, action){
-    return initialState;
+const initialState = {};
+
+export default function postReducer(state = initialState, action) {
+  switch (action.type) {
+    case GET_POSTS:
+      return action.payload;
+
+    default:
+      return state;
+  }
 }
