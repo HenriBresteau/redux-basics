@@ -1,4 +1,5 @@
 import React from "react";
+import { addUserLike } from "../actions/user.action";
 
 const Like = ({ post }) => {
   return (
