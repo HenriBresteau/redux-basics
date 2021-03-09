@@ -18,28 +18,28 @@
       "title": "Le retour du roi",
       "author": "Denis",
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
-      "likes": 107,
+      "likes": 110,
       "id": "3"
     },
     {
       "title": "Article numero 1",
-      "content": "pensee à toi",
       "author": "user42",
-      "likes": 0,
+      "content": "pensee à toi",
+      "likes": 5,
       "id": "4"
     },
     {
       "title": "Art 2",
       "author": "user42",
       "content": "pens pas à la moins oui",
-      "likes": 0,
+      "likes": 5,
       "id": "5"
     }
   ],
   "users": [
     {
       "pseudo": "user42",
-      "likes": 21,
+      "likes": 24,
       "id": 1
     }
   ]
