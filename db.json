@@ -20,6 +20,27 @@
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
       "likes": 107,
       "id": "3"
+    },
+    {
+      "title": "Article numero 1",
+      "content": "pensee à toi",
+      "author": "user42",
+      "likes": 0,
+      "id": "4"
+    },
+    {
+      "title": "Art 2",
+      "author": "user42",
+      "content": "pens pas à la moins oui",
+      "likes": 0,
+      "id": "5"
+    },
+    {
+      "title": "Art 3",
+      "author": "user42",
+      "content": "super Cool cest bien",
+      "likes": 0,
+      "id": "6"
     }
   ],
   "users": [

@@ -1,4 +1,4 @@
-import { ADD_POSTS, GET_POSTS } from "../actions/post.action";
+import { ADD_POSTS, EDIT_POST, GET_POSTS } from "../actions/post.action";
 
 const initialState = {};
 
@@ -8,6 +8,15 @@ export default function postReducer(state = initialState, action) {
       return action.payload;
     case ADD_POSTS:
       return [action.payload, ...state];
+    case EDIT_POST:
+      return state.map((post) => {
+        if (post.id === action.payload.id) {
+          return {
+            ...post,
+            content: action.payload.content,
+          };
+        } else return post;
+      });
     default:
       return state;
   }
